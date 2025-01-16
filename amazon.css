@@ -1,0 +1,307 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+   box-sizing: border-box;
+}
+#navbar{
+    width: 100%;
+    height: 15%;
+    background-color: #0f1111;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#logo img{
+    background-color: transparent;
+}
+
+#deliver{
+    font-size: small;
+    color: whitesmoke;
+ position: relative;
+ left: 14px;
+ letter-spacing: 1px;
+}
+#navsearch{
+    width: 500px;
+    height: 50px;
+    display: flex;
+   background-color: white;
+   border-radius: 10px;
+   justify-content: flex-start;
+   color: #0f1111;
+   align-items: center;
+}
+#selection{
+    height: 50px;
+    background-color:#ffffff;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+}
+#search input{
+    height: 46px;
+    width: 420px;
+    font-size: larger;
+    border: none;
+}
+#icon{
+    background-color: rgb(228, 151, 8);
+    width: 45px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#flag{
+    display: flex;
+    background-color: #0f1111;
+
+}
+#flag select{
+    background-color: #0f1111;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+}
+#navsignin p{
+ font-size:smaller ;
+}
+#navsignin p b{
+    font-size: large;
+}
+#navsignin select{
+    border: none;
+    color: #ffffff;
+    background-color: #0f1111;
+}
+
+#navorder p{
+    font-size:smaller ;
+   }
+#navorder p b{
+    font-size: large;
+}
+#navcart{
+    font-size: larger;
+}
+/* herostrip */
+#herostrip{
+    width: 100%;
+    height: 10%;
+   color: white;
+    background-color: rgb(38, 37, 37);
+}
+#stripfont a{
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+}
+/*page1*/
+#page1{
+    width: 100%;
+    height: 100%;
+    background-image: url(shop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+}
+#cards{
+    display: flex;
+    justify-content: space-evenly;
+   position: relative;
+   top: 200px;
+}
+#card1{
+    width: 306px;
+    height: 420px;
+    background-color: rgb(248, 244, 244);
+    
+}
+#card1 h4, #card2 h4, #card3 h4{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-size: larger;
+}
+#card1 a{
+    color: rgb(24, 62, 24);
+    position: relative;
+    top: 230px;
+    left: 20px;
+}
+#imgline1{
+    display: flex;
+   position: relative;
+   top: 50px;
+}
+#imgline1 p {
+    position: relative;
+    top: 80px;
+    right: 80px;
+}
+#imgline2{
+    display: flex;
+    position: relative;
+    top: 150px;
+}
+#imgline2 p {
+    position: relative;
+    top: 80px;
+    right: 80px;
+}
+#card2{
+    width: 306px;
+    height: 420px;
+    background-color: rgb(248, 244, 244);
+}
+#card2 img{
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+#card2 a{
+    color: rgb(24, 62, 24);
+    position: relative;
+    top: 80px;
+    right: 200px;
+}
+#card3{
+    width: 306px;
+    height: 420px;
+    background-color: rgb(248, 244, 244);
+}
+#card3 img{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    height: 270px;
+}
+#card3 a{
+    color: rgb(24, 62, 24);
+    position: relative;
+    top: 110px;
+    right: 230px;
+    
+}
+#cardslayers{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.cardsbelow{
+    
+    width: 306px;
+    height: 420px;
+    margin: 10px;
+    background-color: rgb(248, 244, 244);
+}
+#card4 h4, #card5 h4, #card6 h4{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-size: larger;
+}
+#card4 img{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    height: 270px;
+}
+#card4 p{
+    color: rgb(24, 62, 24);
+    position: relative;
+    top: 70px;
+    left: 20px;  
+}
+#card5 img{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    height: 270px;
+}
+#card5 p{
+    color: rgb(24, 62, 24);
+    position: relative;
+    top: 70px;
+    left: 20px;  
+}
+#card6 img{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    height: 270px;
+}
+#card6 p{
+    color: rgb(24, 62, 24);
+    position: relative;
+    top: 70px;
+    left: 20px;  
+}
+#recommendation{
+    display: block;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#recommendation button{
+background-color: orange;
+border: 1px solid rgb(207, 207, 15);
+padding: 10px;
+padding-left: 100px;
+padding-right: 100px;
+}
+#footerstrip{
+    width: 100%;
+    height: 5%;
+    color: white;
+   position: relative;
+   padding-top: 15px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(38, 37, 37);
+}
+#footercontent{
+    width: 100%;
+    height: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+   padding-top: 20px;
+    color: white;
+    background-color:rgb(24, 44, 65);
+}
+.boxes{
+    line-height: 1.8;
+}
+.boxes p{
+    font-weight: lighter;
+    font-size: small;
+}
+footer{
+    width: 100%;
+    height: 10%;
+    background-color: #0f1111;
+    color: white;
+    text-align: center
+}
+footer a, p{
+    position: relative;
+    align-items: center;
+   margin: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: small;
+   font-weight: lighter;
+}
